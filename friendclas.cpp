@@ -49,5 +49,5 @@ int main()
     cout << "Masukkan lebar : ";
     cin >> objekPP.lebar;
     cout << "Luas persegi panjang : " <<
-    objekPP.luasPP(objekPP.panjang, objekPP.lebar) << endl;
+    objekPP.luas(objekPP.panjang, objekPP.lebar) << endl;
 };
