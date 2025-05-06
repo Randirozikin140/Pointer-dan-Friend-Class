@@ -5,6 +5,4 @@ class Persegipanjang
 {
 public: // akses modifire
     int panjang, lebar;
-
-
 };
