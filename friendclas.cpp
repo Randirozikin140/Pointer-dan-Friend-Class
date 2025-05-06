@@ -43,4 +43,11 @@ int main()
 {
     Persegipanjang objekPP; //membuat objek
     Lingkaran ol;
+
+    cout << "Masukkan panjang : ";
+    cin >> objekPP.panjang;
+    cout << "Masukkan lebar : ";
+    cin >> objekPP.lebar;
+    cout << "Luas persegi panjang : " <<
+    objekPP.luas(objekPP.panjang, objekPP.lebar) << endl;
 };
