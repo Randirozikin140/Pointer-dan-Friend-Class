@@ -15,5 +15,7 @@ int main()
 {
     mahasiswa *mhs = new mahasiswa{1}; // pointer objec mhs
     mhs->nim = 2;
-    mhs->showNim(); 
+    mhs->showNim();
+    delete mhs;
+    return 0;
 }
