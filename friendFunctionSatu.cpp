@@ -9,7 +9,7 @@ public:
     friend void serNama(mahasiswa &a, string);
 };
 
-void setNama(mahasiswa &a, string b)
+void setNama(Mahasiswa &a, string b)
 {
     a.nama = b;
     cout << a.nama;
