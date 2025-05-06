@@ -38,3 +38,9 @@ public:
         return 3.14 * r * r;
     }
 };
+
+int main()
+{
+    Persegipanjang objekPP; //membuat objek
+    Lingkaran ol;
+};
