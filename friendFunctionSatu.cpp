@@ -1,21 +1,23 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Mahasiswa
+class mahasiswa
 {
- private:
+private:
     string nama;
 public:
-    friend void serNama(mahasiswa &a, string);
+    friend void setNama(mahasiswa &a, string);
 };
 
-void setNama(Mahasiswa &a, string b)
+void setNama(mahasiswa &a, string b)
 {
     a.nama = b;
     cout << a.nama;
 }
 
-int main(){
+int main()
+{
     mahasiswa joko;
-    setNama()
+    setNama (joko, "joko anwar");
+    return 0;
 }
