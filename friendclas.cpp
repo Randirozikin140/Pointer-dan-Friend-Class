@@ -14,4 +14,18 @@ public:
         cout << "Masukkan lebar : ";
         cin >> lebar;
     }
+
+    int luas(int a, int b)
+    {
+        return a * b;
+    }
+    // lingkaran ol;
+};
+
+class Lingkaran
+{
+public:
+    int jarijari;
+
+    
 };
